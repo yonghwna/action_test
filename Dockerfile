@@ -1,5 +1,5 @@
 # node 이미지 기반 Docker 이미지 생성
-FROM node:alpine3.18 as build
+FROM node:16
 
 # 작업 디렉토리 설정
 WORKDIR /app
